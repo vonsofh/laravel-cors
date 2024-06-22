@@ -1,5 +1,5 @@
 {
-    "name": "fruitcake/laravel-cors",
+    "name": "vonsofh/laravel-cors",
     "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
     "keywords": ["laravel", "cors", "crossdomain", "api"],
     "license": "MIT",
@@ -15,15 +15,15 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^6|^7|^8|^9",
-        "illuminate/contracts": "^6|^7|^8|^9",
+        "illuminate/support": "^6|^7|^8|^9|^10|^11",
+        "illuminate/contracts": "^6|^7|^8|^9|^10|^11",
         "fruitcake/php-cors": "^1.2"
     },
     "require-dev": {
-        "laravel/framework": "^6|^7.24|^8",
-        "phpunit/phpunit": "^9",
-        "squizlabs/php_codesniffer": "^3.5",
-        "orchestra/testbench-dusk": "^4|^5|^6|^7"
+        "laravel/framework": "^6|^7.24|^8|^9||^10|^11",
+        "phpunit/phpunit": "^9|^10|^11",
+        "squizlabs/php_codesniffer": "^3.5|^4.0",
+        "orchestra/testbench-dusk": "^4|^5|^6|^7|^8"
     },
     "autoload": {
         "psr-4": {
